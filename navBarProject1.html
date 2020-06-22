@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+    </style>
+</head>
+<body id="body">
+    <nav id="nav-container" >
+            <ul id="list-container">
+                <li id="menu-item1"><a href="#" >Home</a></li>
+                <li id="menu-item2"><a href="#" >About</a></li>
+                <li id="menu-item3"><a href="#" >Projects</a></li>
+                <li id="menu-item4"><a href="#" >Documentation</a></li>
+                <li id="menu-item5"><a href="#" >Blog</a></li>
+                <li id="menu-item6"><a href="#" >Contact</a></li>
+            </ul>
+            <!-- gitHub icon we are borrowing from fontawesome v.4.7.0 -->
+            <span id="github-icon"><i class="fa fa-github-alt" aria-hidden="true"></i></span>
+            <span id="linkedin-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+        </nav>
+
+        <script language="javascript" type="text/javascript">
+        //DOM Global Variables 
+        var nav_container = document.getElementById("nav-container");
+        var body = document.getElementById("body");
+        
+
+        function bodyStyle() {
+            body.style.margin = "0";
+            body.style.padding = "0";
+            body.style.fontFamily = "\'Quicksand\', sans-serif";
+        }
+        function navContainerStyle() {
+            nav_container.style.backgroundColor = "#F9F9F9";
+            nav_container.style.boxShadow = "0 2px 8px 0 #B0B0B0, 0 4px 8px 0 #F5F5F5";
+            nav_container.style.height = "50px";
+            nav_container.style.width = "100%";
+            nav_container.style.position = "relative";
+            
+        }
+        
+
+
+        // -------------------------------------main functions 
+        bodyStyle();
+        navContainerStyle();
+        
+        
+        </script>
+</body>
+</html>
